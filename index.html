@@ -2,16 +2,6 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWVKCLMY7E"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-SWVKCLMY7E');
-    </script> -->
-
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SWVKCLMY7E"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -23,28 +13,28 @@
     gtag('config', 'G-SWVKCLMY7E');
 
     // Fetch user's IP address and location
-    fetch('https://ipapi.co/json/')
-        .then(response => response.json())
-        .then(data => {
-        const ip = data.ip;
-        const city = data.city;
-        const region = data.region;
-        const country = data.country_name;
+    // fetch('https://ipapi.co/json/')
+    //     .then(response => response.json())
+    //     .then(data => {
+    //     const ip = data.ip;
+    //     const city = data.city;
+    //     const region = data.region;
+    //     const country = data.country_name;
 
-        // Display IP and location on the page
-        document.getElementById('user-info').innerHTML = `
-            <p>IP Address: ${ip}</p>
-            <p>Location: ${city}, ${region}, ${country}</p>
-        `;
+    //     // Display IP and location on the page
+    //     document.getElementById('user-info').innerHTML = `
+    //         <p>IP Address: ${ip}</p>
+    //         <p>Location: ${city}, ${region}, ${country}</p>
+    //     `;
 
-        // Send custom data to Google Analytics
-        gtag('event', 'user_location', {
-            ip_address: ip,
-            location: `${city}, ${region}, ${country}`
-        });
-        })
-        .catch(error => console.error('Error fetching IP information:', error));
-    </script>
+    //     // Send custom data to Google Analytics
+    //     gtag('event', 'user_location', {
+    //         ip_address: ip,
+    //         location: `${city}, ${region}, ${country}`
+    //     });
+    //     })
+    //     .catch(error => console.error('Error fetching IP information:', error));
+    // </script>
 
     <!-- Placeholder to display IP and location -->
     <div id="user-info"></div>
@@ -124,7 +114,9 @@
 
         <div class="about-content">
             <h3>JAVA DEVELOPER</h3>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, culpa consequatur, molestias architecto quam quia et beatae dolore vel laborum eum distinctio fugit similique iure explicabo aliquam neque, accusantium delectus vitae fugiat a iste ab ipsam quasi? Fuga tempora commodi assumenda ipsum dolorem, quidem modi tempore eius vitae quis cum.</P>
+            <p>
+                I am a dedicated Java Developer with a good understanding of programming and software development. I enjoy building applications using Java and working with tools like MySQL and Spring Boot. I can write clean and organized code, solve problems, and work well in a team. I am always ready to learn new things and improve my skills to keep up with new technologies.
+            </p>
             <div class="btn-box btns">
                 <a href="#" class="btn">Read More</a>
             </div>
@@ -143,42 +135,42 @@
 
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bx-calendar'></i> 2017 - 2018</div>
-                            <h3>Bachelors degree - University of Wolverhapton</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt explicabo necessitatibus ab earum modi possimus magnam nihil vitae. Mollitia, quasi.</p>
+                            <div class="year"><i class='bx bx-calendar'></i> 2021 - 2025</div>
+                            <h3>Bachelor's Degree in Computing – University of Wolverhampton</h3>
+                            <p>Successfully completed undergraduate program with a strong focus on software development, data structures, cloud computing, and networking. 
+                                Gained practical experience through academic projects and hands-on assignments.</p>
                         </div>
                     </div>
 
-                    <div class="education-content">
+                    <!-- <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bx-calendar'></i> 2017 - 2018</div>
                             <h3>Bachelors degree - University of Wolverhapton</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt explicabo necessitatibus ab earum modi possimus magnam nihil vitae. Mollitia, quasi.</p>
                         </div>
                     </div>
-                </div>
-            
+                </div> -->
             </div>
 
             <div class="education-column">
                 <h3 class="title">Experience</h3>
                 <div class="education-box">
-
                     <div class="education-content">
                         <div class="content">
-                            <div class="year"><i class='bx bx-calendar'></i> 2017 - 2018</div>
-                            <h3>Web Developer - Herald Collage </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt explicabo necessitatibus ab earum modi possimus magnam nihil vitae. Mollitia, quasi.</p>
+                            <div class="year"><i class='bx bx-calendar'></i> 2023 - 2024</div>
+                            <h3>IT Support - Fly AirQ</h3>
+                            <p>
+                                Worked as an IT Support staff at Fly AirQ, where I helped maintain computer systems, troubleshoot technical issues, and assist staff with hardware and software problems. I also supported network configurations and ensured smooth day-to-day IT operations within the company.
+                            </p>
                         </div>
                     </div>
-
-                    <div class="education-content">
+                    <!-- <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bx-calendar'></i> 2017 - 2018</div>
                             <h3>Bachelors degree - University of Wolverhapton</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt explicabo necessitatibus ab earum modi possimus magnam nihil vitae. Mollitia, quasi.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             
             </div>
