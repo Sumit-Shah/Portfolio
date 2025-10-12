@@ -112,7 +112,7 @@ section {
     -webkit-text-stroke: 0.7px var(--main-color);
     background-image: linear-gradient(var(--main-color), var(--main-color));
     background-repeat: no-repeat;
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     background-position: -33rem 0;
     position: relative;
     animation: homeBgText 6s linear infinite;
@@ -632,9 +632,9 @@ span {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0.7rem 4%;
+    padding: 0.4rem 2%;
     background: var(--second-bg-color);
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .footer-text p {
