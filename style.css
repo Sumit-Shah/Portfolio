@@ -81,7 +81,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/about.jpg') no-repeat;
+    background: url('/images/AboutMe.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
